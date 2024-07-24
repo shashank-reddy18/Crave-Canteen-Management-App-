@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    tools:context=".MainActivity">
+
+    <!--Edittext for getting users phone number-->
+
+    <!--Button for getting OTP-->
+
+    <!--Edittext for getting otp from user-->
+
+    <!--button for verifying user OTP-->
+
+
+    <EditText
+        android:id="@+id/idEdtPhoneNumber"
+        android:layout_width="390dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:hint="@string/Phno_hint"
+        android:textColor="@color/black"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/idEdtOtp"
+        android:layout_width="390dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/idEdtPhoneNumber"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:hint="@string/otp_hint"
+        android:importantForAutofill="yes"
+        android:inputType="phone"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/idBtnGetOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEdtOtp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="229dp"
+        android:backgroundTint="#F9B317"
+        android:bottomLeftRadius="16dp"
+        android:bottomRightRadius="16dp"
+        android:text="@string/getotp"
+        android:textAllCaps="false"
+        android:topLeftRadius="16dp"
+        android:topRightRadius="16dp" />
+
+    <Button
+        android:id="@+id/idBtnVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEdtOtp"
+        android:layout_alignStart="@+id/idEdtOtp"
+        android:layout_alignEnd="@+id/idEdtOtp"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#F9B317"
+        android:bottomLeftRadius="16dp"
+        android:bottomRightRadius="16dp"
+        android:text="@string/verifyotp"
+        android:textAllCaps="false"
+        android:topLeftRadius="16dp"
+        android:topRightRadius="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Canteen App</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="Phno_hint">Enter your phone number</string>
+    <string name="otp_hint">Enter OTP</string>
+    <string name="getotp">GetOTP</string>
+    <string name="verifyotp">Verify OTP</string>
+</resources>
